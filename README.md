@@ -210,3 +210,41 @@ In Milestone 7, you implemented a backend endpoint for **user login**, focusing 
 ---
 
 This milestone ensures that your app is secure and capable of authenticating users efficiently while safeguarding their credentials!
+
+
+
+
+
+### **Milestone 8 Summary: Product Card Component and Homepage Design**
+
+In Milestone 8, you focused on building a **product card component** and designing a clean, organized **homepage** to display multiple product cards dynamically.
+
+---
+
+### **Key Achievements:**
+1. **Card Component Creation:**
+   - Designed a reusable product card component to display product details such as name, price, and image.
+   - Used props to dynamically pass product information to the component.
+
+2. **Homepage Layout Design:**
+   - Structured the homepage to display multiple product cards using **grid layout** or **flexbox** for a visually appealing design.
+   - Ensured the layout was clean, user-friendly, and responsive.
+
+3. **Dynamic Rendering:**
+   - Used **array mapping** to iterate over a product list and render individual cards for each product.
+   - Maintained consistency in the layout by passing unique product details dynamically to each card.
+
+---
+
+### **Deliverables:**
+1. **Codebase Updates:**
+   - Completed the product card component.
+   - Created a homepage with a dynamic grid layout showcasing multiple product cards.
+
+2. **Repository Updates:**
+   - Pushed all changes to your **GitHub repository**.
+   - Updated the README file with a new section summarizing the progress of Milestone 8.
+
+---
+
+This milestone enhances the **usability and visual appeal** of your app, laying a strong foundation for advanced features like filtering and sorting in the upcoming milestones!
