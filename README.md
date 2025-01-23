@@ -129,3 +129,36 @@ In Milestone 5, you focused on creating a user-friendly **Sign-Up Page** on the 
 ---
 
 This milestone ensures a solid user registration flow on the frontend, preparing the application for future integration with backend functionality and user sessions.
+
+
+
+
+
+### **Milestone 6 Summary: Backend Endpoint for Signup with Password Encryption**
+
+In Milestone 6, you created a backend endpoint for the **Signup Page**, focusing on securely storing user data in the database by encrypting passwords.
+
+---
+
+### **Key Achievements:**
+- **Password Encryption:**  
+   - Used **bcrypt** to hash user passwords during signup.  
+   - Ensured secure storage of hashed passwords in the database, preventing unauthorized access to sensitive data.  
+
+- **Store User Data:**  
+   - Saved complete user details (e.g., name, email, hashed password) in the database while ensuring security and privacy.  
+
+---
+
+### **Deliverables:**
+1. **Codebase Updates:**  
+   - Backend endpoint for **user signup** with password encryption.  
+   - Database integration to store all user data securely.  
+
+2. **Repository Updates:**  
+   - Code pushed to the existing **GitHub repository** from previous milestones.  
+   - README file updated with a new section summarizing Milestone 6 progress.  
+
+---
+
+This milestone reinforces the importance of data security by implementing encryption, preparing your application to handle user data responsibly and securely. 
