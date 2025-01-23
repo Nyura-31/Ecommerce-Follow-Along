@@ -101,3 +101,31 @@ In Milestone 4, you enhanced your backend by creating a **User Model**, managing
 ---
 
 This milestone lays the groundwork for future user-specific features and prepares the backend to handle real-world data and media effectively.
+
+
+
+
+
+### **Milestone 5 Summary: Sign-Up Page and Form Validation**
+
+In Milestone 5, you focused on creating a user-friendly **Sign-Up Page** on the frontend and implementing **form validation** to ensure smooth and secure user registration.
+
+---
+
+### **Key Achievements:**
+- **Sign-Up Page:** Built a clean and functional **Sign-Up UI** using **HTML** and **CSS**, allowing users to input details such as their name, email, and password to create an account.  
+- **Form Validation:** Added validation checks to ensure users provide valid information, such as correctly formatted emails and secure passwords. This step prevents invalid data from being sent to the backend.  
+
+---
+
+### **Deliverables:**
+1. **Codebase Updates:**  
+   - A functional and visually appealing **Sign-Up Page** with validation mechanisms.  
+
+2. **Repository Updates:**  
+   - All changes pushed to the existing **GitHub repository**.  
+   - README file updated with a summary of Milestone 5 progress.  
+
+---
+
+This milestone ensures a solid user registration flow on the frontend, preparing the application for future integration with backend functionality and user sessions.
