@@ -73,3 +73,31 @@ Key achievements include:
 All updates were pushed to the same **GitHub repository** from previous milestones, with the README file updated to document Milestone 3 progress. This milestone established a scalable backend to support future features.
 
 
+
+
+
+### **Milestone 4 Summary: User Model, Controller, and File Uploads**
+
+In Milestone 4, you enhanced your backend by creating a **User Model**, managing user-related operations with a **User Controller**, and enabling file uploads using **Multer**. These additions set the stage for handling and storing user data effectively.
+
+---
+
+### **Key Achievements:**
+- **User Model:** Designed a schema to define how user data (e.g., name, email, password) is stored in **MongoDB**. This acts as a blueprint for the database.  
+- **User Controller:** Built controllers to handle user-related operations, such as adding new users and retrieving their details, ensuring smooth management of server requests and responses.  
+- **File Uploads with Multer:** Configured **Multer** to enable file uploads (e.g., profile pictures) and store them in the backend, providing a mechanism to handle user-generated content.  
+
+---
+
+### **Deliverables:**
+1. **Codebase Updates:**  
+   - Added a **User Model** and **Controller** to your backend.  
+   - Configured file upload functionality using **Multer**.  
+
+2. **Repository Updates:**  
+   - All progress pushed to the existing **GitHub repository** from earlier milestones.  
+   - README file updated with a section summarizing Milestone 4.  
+
+---
+
+This milestone lays the groundwork for future user-specific features and prepares the backend to handle real-world data and media effectively.
