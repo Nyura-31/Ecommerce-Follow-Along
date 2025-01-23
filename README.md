@@ -162,3 +162,51 @@ In Milestone 6, you created a backend endpoint for the **Signup Page**, focusing
 ---
 
 This milestone reinforces the importance of data security by implementing encryption, preparing your application to handle user data responsibly and securely. 
+
+
+
+
+
+### **Milestone 7 Summary: Backend Endpoint for User Login**
+
+In Milestone 7, you implemented a backend endpoint for **user login**, focusing on validating credentials and securely verifying encrypted passwords stored in the database.
+
+---
+
+### **Key Achievements:**
+1. **Login Endpoint Creation:**
+   - Built an endpoint to accept user credentials (email/username and password).
+   - Retrieved corresponding user data from the database for authentication.
+
+2. **Password Validation:**
+   - Used **bcrypt** to compare the hashed password from the database with the user’s input.
+   - Ensured users can log in only if their credentials match securely.
+
+3. **Error Handling:**
+   - Returned appropriate errors for invalid credentials or non-existent users (e.g., "User does not exist").
+   - Focused on user-friendly and secure responses during the authentication process.
+
+---
+
+### **How it Works:**
+- **User Enters Credentials:** The user submits email/username and password through the login page.
+- **Fetch Data:** The backend retrieves user details from the database if the email/username exists.
+- **Password Check:** The provided password is hashed and compared with the stored hash to verify authenticity.
+- **Authentication Outcome:**
+  - If the hash matches: User is successfully logged in.
+  - If not: Error is returned.
+
+---
+
+### **Deliverables:**
+1. **Codebase Updates:**
+   - Backend login endpoint with password validation using bcrypt.
+   - Database integration to fetch and validate user data.
+
+2. **Repository Updates:**
+   - Code pushed to the existing **GitHub repository** from previous milestones.
+   - README file updated with a new section summarizing Milestone 7 progress.
+
+---
+
+This milestone ensures that your app is secure and capable of authenticating users efficiently while safeguarding their credentials!
