@@ -248,3 +248,43 @@ In Milestone 8, you focused on building a **product card component** and designi
 ---
 
 This milestone enhances the **usability and visual appeal** of your app, laying a strong foundation for advanced features like filtering and sorting in the upcoming milestones!
+
+
+
+
+
+### **Milestone 9 Summary: Product Input Form Implementation**  
+
+In Milestone 9, you focused on creating a **frontend form** to take product details as input, including support for multiple images. This step is essential for enabling product uploads and preparing data for future database integration.  
+
+---  
+
+### **Key Achievements:**  
+
+1. **Product Input Form Creation:**  
+   - Developed a structured form to collect essential product details such as name, price, description, and category.  
+   - Ensured a user-friendly layout for easy data entry.  
+
+2. **Multiple Image Upload Support:**  
+   - Implemented functionality to allow users to upload multiple product images.  
+   - Used input type `"file"` with `"multiple"` attribute to facilitate multiple file selection.  
+
+3. **Preparation for Backend Integration:**  
+   - Designed the form in a way that its data can be easily sent to a backend database in future milestones.  
+   - Experimented with additional features like validation and restricting uploads to specific users (e.g., admin or shop owners).  
+
+---  
+
+### **Deliverables:**  
+
+1. **Codebase Updates:**  
+   - Developed and styled the product input form.  
+   - Implemented basic validation for required fields and file uploads.  
+
+2. **Repository Updates:**  
+   - Pushed all changes to the **GitHub repository**.  
+   - Updated the README file with a new section summarizing the progress of Milestone 9.  
+
+---  
+
+This milestone lays the groundwork for **storing and displaying product data**, setting the stage for **filtering, sorting, and user role-based access** in upcoming milestones! 🚀
