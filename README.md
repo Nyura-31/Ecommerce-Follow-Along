@@ -288,3 +288,43 @@ In Milestone 9, you focused on creating a **frontend form** to take product deta
 ---  
 
 This milestone lays the groundwork for **storing and displaying product data**, setting the stage for **filtering, sorting, and user role-based access** in upcoming milestones! 🚀
+
+
+
+
+
+### **Milestone 10 Summary: Product Schema & API Endpoint**  
+
+In Milestone 10, you focused on **defining a Mongoose schema for products** and **creating an API endpoint** to store product details in a MongoDB database.  
+
+---
+
+### **Key Achievements:**  
+
+1. **Product Schema Definition:**  
+   - Created a **Mongoose schema** to structure product data, including fields like `name`, `description`, `price`, and `image URL`.  
+   - Implemented **validation rules** to ensure data integrity (e.g., required fields, correct data types).  
+
+2. **POST API Endpoint for Product Storage:**  
+   - Built an **Express.js POST endpoint** to handle product data submissions.  
+   - Implemented **data validation** before storing in MongoDB to prevent invalid entries.  
+
+3. **Importance of Data Validation:**  
+   - Ensured that only **valid and structured data** is stored in the database.  
+   - Helped maintain **data consistency** and prevent errors in future queries.  
+
+---
+
+### **Deliverables:**  
+
+1. **Codebase Updates:**  
+   - Completed the **Mongoose schema for products**.  
+   - Developed and tested the **POST API endpoint** for storing product data.  
+
+2. **Repository Updates:**  
+   - Pushed all changes to the **GitHub repository**.  
+   - Updated the **README file** with a section summarizing Milestone 10 progress.  
+
+---
+
+This milestone **lays the groundwork** for managing product data efficiently, ensuring validation, and preparing for upcoming features like **filtering and sorting** in future milestones. 🚀
