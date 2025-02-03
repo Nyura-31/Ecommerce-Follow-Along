@@ -328,3 +328,28 @@ In Milestone 10, you focused on **defining a Mongoose schema for products** and 
 ---
 
 This milestone **lays the groundwork** for managing product data efficiently, ensuring validation, and preparing for upcoming features like **filtering and sorting** in future milestones. 🚀
+
+
+
+
+
+### **Summary of Milestone 11** 🚀  
+
+In this milestone, you will make your **home page dynamic** by fetching and displaying all the products stored in **MongoDB**.  
+
+#### **Key Learning Goals:**  
+✔️ Create an **API endpoint** to extract and send product data from MongoDB.  
+✔️ Fetch this data on the **frontend** using a function.  
+✔️ Dynamically display the data using the **product card component** created earlier.  
+
+#### **Steps to Complete:**  
+1️⃣ **Backend:** Write an API endpoint to retrieve all product data.  
+2️⃣ **Frontend:** Implement a function to fetch the data.  
+3️⃣ **Display Data:** Pass the retrieved data to the product card component for dynamic rendering.  
+
+#### **Submission Guidelines:**  
+✅ Push the code to your **GitHub repository** (publicly accessible).  
+✅ Update the **README** with a summary of your progress.  
+✅ Submit the **repository link** in the assignment submission section.  
+
+This milestone helps us understand **how to send, receive, and display data dynamically** using components. 🎯  `
