@@ -352,4 +352,36 @@ In this milestone, you will make your **home page dynamic** by fetching and disp
 ✅ Update the **README** with a summary of your progress.  
 ✅ Submit the **repository link** in the assignment submission section.  
 
-This milestone helps us understand **how to send, receive, and display data dynamically** using components. 🎯  `
+This milestone helps us understand **how to send, receive, and display data dynamically** using components. 🎯 
+
+
+
+
+
+ ### **Summary of Milestone 13 - Editing Uploaded Products** 🚀  
+
+In this milestone, you will **implement the functionality to edit uploaded products** in your project. This involves adding an **"Edit" button**, updating the backend to handle modifications, and ensuring the frontend form can auto-fill existing product details.  
+
+### **Key Learning Goals 🎯**  
+1. **Writing an API endpoint** to update existing product data in **MongoDB**.  
+2. **Auto-filling the form** with the previous product details when clicking "Edit".  
+3. **Allowing modifications** and saving the updated data back to the database.  
+
+### **Steps to Complete 📝**  
+1. **Backend:**  
+   - Create an API endpoint (`PUT` request) to handle product updates.  
+   - Update MongoDB with the new product details.  
+
+2. **Frontend:**  
+   - Add an **"Edit" button** to the product card.  
+   - When clicked, **populate the form** with existing product data.  
+   - Allow the user to modify and save the new details.  
+
+### **Submission Guidelines 📥**  
+- **Push your code** to your GitHub repository.  
+- Ensure your **repository is public**.  
+- Update the **README** file with a summary of your progress.  
+- **Submit the repository link** in the assignment submission section.  
+
+This milestone will strengthen your understanding of **CRUD operations**, specifically the **update functionality** in a **full-stack** application. 🚀
+
