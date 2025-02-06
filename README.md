@@ -385,3 +385,34 @@ In this milestone, you will **implement the functionality to edit uploaded produ
 
 This milestone will strengthen your understanding of **CRUD operations**, specifically the **update functionality** in a **full-stack** application. 🚀
 
+
+
+
+
+### **Summary of Milestone 14 - Deleting Products** 🚀  
+
+In this milestone, you will **implement the functionality to delete products** from your application. This includes adding a **"Delete" button** on the product card and writing a **backend endpoint** to remove the product from **MongoDB** using its **ID**.  
+
+### **Key Learning Goals 🎯**  
+1. **Writing an API endpoint** to delete a product from **MongoDB** using its **ID**.  
+2. **Adding a delete button** to each product card in the frontend.  
+3. **Sending a delete request** to the backend when the button is clicked.  
+
+### **Steps to Complete 📝**  
+1. **Backend:**  
+   - Create a **DELETE** endpoint (`DELETE /product/:id`).  
+   - Find the product by **ID** and remove it from **MongoDB**.  
+
+2. **Frontend:**  
+   - Add a **"Delete" button** to each product card.  
+   - When clicked, send a request to the backend to delete the product.  
+   - Refresh the product list after successful deletion.  
+
+### **Submission Guidelines 📥**  
+- **Push your code** to your **GitHub repository**.  
+- Ensure your **repository is public**.  
+- Update the **README** file with a summary of your progress.  
+- **Submit the repository link** in the assignment submission section.  
+
+This milestone will help you **master the delete operation** in a **full-stack** application. 🚀
+
