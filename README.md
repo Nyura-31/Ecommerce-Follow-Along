@@ -416,3 +416,32 @@ In this milestone, you will **implement the functionality to delete products** f
 
 This milestone will help you **master the delete operation** in a **full-stack** application. 🚀
 
+
+
+
+
+### **Milestone 15 Summary**  
+
+In this milestone, we will **create a Navbar component** and integrate it across all pages of the application to enable smooth navigation.  
+
+#### **Learning Goals 🎯**  
+- Learn how to **create a Navbar component**.  
+- Understand how to **reuse components** across multiple pages.  
+- Implement a **responsive Navbar** that works on all screen sizes.  
+
+#### **Steps to Complete 📝**  
+1. **Create a Navbar Component** containing navigation links to:  
+   - Home  
+   - My Products  
+   - Add Product  
+   - Cart  
+2. **Make the Navbar Responsive** to ensure proper display on all screen sizes.  
+3. **Integrate the Navbar into all pages** for seamless navigation.  
+
+#### **Submission Guidelines 📥**  
+- Push your code to **GitHub** and ensure it is **publicly accessible**.  
+- Update the **README file** to summarize your progress.  
+- Submit the **GitHub repository link** in the assignment submission section.  
+
+This milestone will help you understand how to create a **navigation system** in a React application efficiently. 🚀
+
