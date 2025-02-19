@@ -529,3 +529,23 @@ This milestone helped in understanding the fundamentals of cart functionality an
 
 
 
+
+
+### **Milestone 18 Summary: Fetching Cart Products**  
+
+In this milestone, we focused on creating a backend endpoint to retrieve all products inside a user’s cart for display on the cart page.  
+
+#### **Key Accomplishments:**  
+✅ **Created an API Endpoint** – Developed an endpoint to handle requests from the cart page.  
+✅ **Fetched Cart Products** – Implemented logic to retrieve all products in a user’s cart using their email.  
+✅ **Database Integration** – Ensured seamless retrieval of cart data from the database.  
+
+#### **Submission Steps:**  
+1. **Push Code to GitHub** – Ensure all updates are committed and pushed.  
+2. **Update README** – Document the milestone’s progress.  
+3. **Submit Repository Link** – Share the GitHub link in the assignment submission section.  
+
+This milestone helped in understanding how to retrieve user-specific data and display it dynamically. 🚀
+
+
+
