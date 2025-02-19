@@ -508,3 +508,24 @@ With this milestone completed, our **e-commerce platform** now has a functional 
 
 
 
+
+
+### **Milestone 17 Summary: Implementing Add-to-Cart Functionality**  
+
+In this milestone, we focused on building a backend endpoint to add products to the cart and store them in the database.  
+
+#### **Key Accomplishments:**  
+✅ **Updated User Schema** – Modified the user schema to include a cart field to store selected products.  
+✅ **Created Cart Schema** – Designed a schema to store product details in the cart collection.  
+✅ **Developed an API Endpoint** – Implemented an endpoint that receives product details and adds them to the cart.  
+✅ **Database Integration** – Ensured that cart data is persisted in the database.  
+
+#### **Submission Steps:**  
+1. **Push Code to GitHub** – Ensure all changes are committed and pushed.  
+2. **Update README** – Document the milestone’s progress.  
+3. **Submit Repository Link** – Share the GitHub link in the assignment submission section.  
+
+This milestone helped in understanding the fundamentals of cart functionality and database integration. 🚀
+
+
+
