@@ -549,3 +549,49 @@ This milestone helped in understanding how to retrieve user-specific data and di
 
 
 
+
+
+### **Milestone 19 Summary: Building a Cart Page with Quantity Update Functionality**  
+
+#### **Objective:**  
+In this milestone, you will **create a frontend cart page** that displays products inside the cart and allows users to **increase or decrease the quantity** of each product using `+` and `-` buttons. Additionally, you'll **write backend endpoints** to handle quantity updates.  
+
+---
+
+### **Tasks Overview:**  
+
+✅ **Frontend Tasks:**  
+1. **Create a Cart Page UI**  
+   - Display products in the cart using data from the backend (built in Milestone 18).  
+   - Show product details (image, name, price, quantity).  
+   - Provide `+` and `-` buttons to adjust quantity.  
+
+2. **Handle Quantity Updates on the Frontend**  
+   - Clicking `+` increases the quantity.  
+   - Clicking `-` decreases the quantity (with a minimum of 1).  
+   - Send API requests to update the backend.  
+
+---
+
+✅ **Backend Tasks:**  
+3. **Create an Endpoint to Update Product Quantity**  
+   - Create a **PUT** or **PATCH** endpoint to increase or decrease the quantity of a product in the cart.  
+   - Accept parameters like `productId` and `updateType` (`increase` or `decrease`).  
+   - Update the database accordingly.  
+
+---
+
+### **Final Outcome:**  
+- A fully functional **cart page** that displays products and allows users to adjust quantities dynamically.  
+- **Real-time updates** where changes reflect in the database via API requests.  
+
+---
+
+### **Next Steps:**  
+🚀 **Push your code to GitHub** and **update the README** with a summary of the milestone.  
+🔗 **Submit the GitHub repository link** in the assignment portal.  
+
+This milestone will help you understand how to build an **interactive cart system** for an e-commerce platform. 🎯
+
+
+
