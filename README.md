@@ -595,3 +595,46 @@ This milestone will help you understand how to build an **interactive cart syste
 
 
 
+
+
+
+### **Milestone 20 Summary: Building a Profile Page with User Data**  
+
+#### **Objective:**  
+In this milestone, you will **create a frontend profile page** that displays user details like **profile photo, name, email, and addresses**. You'll also **write a backend endpoint** to fetch user data using email.  
+
+---
+
+### **Tasks Overview:**  
+
+✅ **Backend Tasks:**  
+1. **Create an API Endpoint to Fetch User Data**  
+   - Develop an **endpoint that returns user details** (profile photo, name, email, and addresses) based on the provided email.  
+   - Store user data in the database.  
+   - Ensure the endpoint sends all required user information.  
+
+---
+
+✅ **Frontend Tasks:**  
+2. **Build a Profile Page UI**  
+   - **Section 1:** Display **profile photo, name, and email**.  
+   - **Section 2:** Display **user address(es)**.  
+     - If addresses exist, list them.  
+     - If no address is found, show **"No address found"**.  
+     - Add a button labeled **"Add Address"** for adding new addresses.  
+
+---
+
+### **Final Outcome:**  
+- A **profile page** that dynamically displays user data.  
+- Users can see their personal details and manage their addresses.  
+
+---
+
+### **Next Steps:**  
+🚀 **Push your code to GitHub** and **update the README** with a summary of the milestone.  
+🔗 **Submit the GitHub repository link** in the assignment portal.  
+
+This milestone will help you understand **how to fetch and display user data** in a structured profile page. 🎯
+
+
