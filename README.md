@@ -638,3 +638,30 @@ In this milestone, you will **create a frontend profile page** that displays use
 This milestone will help you understand **how to fetch and display user data** in a structured profile page. 🎯
 
 
+
+
+
+### **Summary of Milestone 21: Address Form** 🚀  
+
+In this milestone, we are creating a **frontend form** for address input. The form will collect details such as:  
+✅ **Country**  
+✅ **City**  
+✅ **Address Line 1 & 2**  
+✅ **Zip Code**  
+✅ **Address Type** (e.g., Home, Office)  
+
+### **Key Steps:**
+1. **Build the Address Form UI** – Use React to create input fields for address details.  
+2. **Manage State** – Store user input using React's `useState()`.  
+3. **Navigation** – Clicking **"Add Address"** in the profile should redirect to this form page.  
+4. **Submission** – Ensure the form captures data properly.  
+
+### **Submission:**
+- Push the code to **GitHub**.  
+- Make sure the repository is **public**.  
+- Update **README.md** with a summary of your work.  
+- Submit the GitHub link in the assignment portal.  
+
+This milestone helps in understanding **form handling, state management, and navigation** in a React app. Let me know if you need help with the code! 🚀
+
+
