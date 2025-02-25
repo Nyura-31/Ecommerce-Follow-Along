@@ -665,3 +665,24 @@ In this milestone, we are creating a **frontend form** for address input. The fo
 This milestone helps in understanding **form handling, state management, and navigation** in a React app. Let me know if you need help with the code! 🚀
 
 
+
+
+
+### **Summary of Milestone 22: Backend Endpoint for Address Storage** 🚀  
+
+In this milestone, we are building a **backend endpoint** to save the user's address in the database.  
+
+### **Key Steps:**
+1. **Create a Backend Endpoint** – Set up an API route to receive address data from the frontend form.  
+2. **Store Data in the Database** – Add the received address to the **address array** inside the **user collection** in the database.  
+3. **Handle Requests & Responses** – Ensure proper request handling, validation, and response messages.  
+
+### **Submission:**
+- Push the code to **GitHub**.  
+- Make sure the repository is **public**.  
+- Update **README.md** with a summary of your work.  
+- Submit the GitHub link in the assignment portal.  
+
+This milestone helps in understanding **backend API creation, database integration, and data storage** in user profiles. Let me know if you need help with the code! 🚀
+
+
