@@ -710,3 +710,24 @@ In this milestone, we will implement the **"Place Order"** functionality in the 
 This milestone will help in understanding how to implement the **Place Order** functionality efficiently. 💡🔥
 
 
+
+
+
+### **Milestone 24 Summary** 🚀  
+
+In this milestone, we will create an **Order Confirmation Page** in the frontend, where users can review their order details before finalizing the purchase.
+
+### **Key Tasks:**  
+1️⃣ **Display Ordered Products:** Show a list of all products being ordered.  
+2️⃣ **Show Delivery Address:** Display the selected delivery address.  
+3️⃣ **Total Price Calculation:** Show the total value of the cart.  
+4️⃣ **Place Order Button:** Add a button to finalize the order.  
+
+### **Submission Steps:**  
+✅ Push code to GitHub (public repository).  
+✅ Update README with milestone progress.  
+✅ Submit the GitHub link in the assignment section.  
+
+This milestone will help understand how to **finalize an order before checkout**. 💡🔥
+
+
