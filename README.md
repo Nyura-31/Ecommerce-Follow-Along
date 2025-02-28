@@ -686,3 +686,27 @@ In this milestone, we are building a **backend endpoint** to save the user's add
 This milestone helps in understanding **backend API creation, database integration, and data storage** in user profiles. Let me know if you need help with the code! 🚀
 
 
+
+
+
+### **Milestone 23 Summary** 🚀  
+
+In this milestone, we will implement the **"Place Order"** functionality in the frontend and define the **product schema for orders** in the backend.
+
+### **Key Tasks**:  
+1️⃣ **Frontend:**  
+   - Add a **"Place Order"** button inside the cart.  
+   - Create a **Select Address Page** to display all saved addresses and allow users to select a delivery address.  
+
+2️⃣ **Backend:**  
+   - Create a **Mongoose schema** to store order details.  
+   - Write an API endpoint to fetch all addresses of the user.  
+
+### **Submission Steps:**  
+✅ Push code to GitHub (public repository).  
+✅ Update README with milestone progress.  
+✅ Submit the GitHub link in the assignment section.  
+
+This milestone will help in understanding how to implement the **Place Order** functionality efficiently. 💡🔥
+
+
