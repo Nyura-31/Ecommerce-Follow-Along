@@ -731,3 +731,29 @@ In this milestone, we will create an **Order Confirmation Page** in the frontend
 This milestone will help understand how to **finalize an order before checkout**. 💡🔥
 
 
+
+
+
+### **Summary of Milestone 25: Place Order Endpoint**  
+
+In this milestone, we focus on creating a backend endpoint to handle order placement. The key objectives include:  
+
+- **Receiving order details**: The endpoint will accept product details, user information, and address details.  
+- **Fetching User ID**: Using the user's email, we retrieve their `_id` from the database.  
+- **Processing Orders**: Each product will be stored as a separate order with the same address.  
+- **Storing in MongoDB**: Order details will be saved using the previously created `Order` schema.  
+
+### **Steps to Complete**  
+1. Create an API endpoint to receive order requests.  
+2. Extract the user's `_id` using their email.  
+3. Iterate through the products and create individual order entries.  
+4. Save the order details in the MongoDB `orders` collection.  
+
+### **Submission Guidelines**  
+- Push the code to a public GitHub repository.  
+- Update the **README** with a summary of Milestone 25.  
+- Submit the repository link in the assignment submission section.  
+
+This milestone helps in understanding how to implement an order placement feature in a backend system. 🚀
+
+
