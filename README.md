@@ -795,3 +795,30 @@ In Milestone 26, we focused on implementing a backend endpoint to fetch all orde
 With this milestone, users can now view all their past orders effortlessly, improving order tracking and management. 🚀
 
 
+
+
+### **Milestone 27 Summary: My Orders Page**  
+
+#### **Objective:**  
+The goal of this milestone was to create a **My Orders** page in the frontend, allowing users to view their past orders. This involved integrating the frontend with the backend API to fetch and display user-specific order details.
+
+#### **Key Steps:**  
+1. **Created a new "My Orders" page** in the frontend with a structured UI.  
+2. **Implemented a GET request** to the `/my-orders` endpoint to retrieve user orders.  
+3. **Sent the user's email** in the request body/query params to fetch only their orders.  
+4. **Displayed the retrieved orders** in a user-friendly format, showing key details like order ID, items, status, and date.  
+5. **Integrated the My Orders page into the navbar** for better navigation.  
+
+#### **Outcome & Learnings:**  
+- Gained hands-on experience in **fetching data from an API** and handling API responses in the frontend.  
+- Improved **UI/UX skills** by designing a clean and informative orders page.  
+- Learned how to **pass user-specific data** to backend endpoints for personalized content.  
+
+#### **Submission Steps:**  
+✅ Pushed the updated code to GitHub.  
+✅ Updated the **README file** with details on Milestone 27.  
+✅ Submitted the GitHub repository link for review.  
+
+🎉 **My Orders page is now functional and ready to enhance the user experience!** 🚀
+
+
