@@ -822,3 +822,31 @@ The goal of this milestone was to create a **My Orders** page in the frontend, a
 🎉 **My Orders page is now functional and ready to enhance the user experience!** 🚀
 
 
+
+
+
+### **Milestone 28 Summary: Cancel Order Feature**  
+
+#### **Objective:**  
+In this milestone, we enhanced the **My Orders** page by allowing users to **cancel their orders**. This involved adding a **Cancel Order** button in the frontend and creating a backend API to handle order cancellations.
+
+#### **Key Steps:**  
+1. **Updated the My Orders page** to include a **Cancel Order** button for each order.  
+2. **Conditionally displayed the button**—if an order was already canceled, the button was hidden.  
+3. **Created a new backend endpoint** to handle order cancellations.  
+4. **Sent the order ID to the backend**, retrieved the order, updated its status to **"Canceled"**, and saved the changes.  
+5. **Integrated the cancel functionality** in the frontend, ensuring real-time updates.  
+
+#### **Outcome & Learnings:**  
+- Implemented **order cancellation logic** in both frontend and backend.  
+- Improved **API request handling** for updating order statuses.  
+- Learned how to **conditionally render UI elements** based on data (hiding the cancel button for canceled orders).  
+
+#### **Submission Steps:**  
+✅ Pushed the updated code to GitHub.  
+✅ Updated the **README file** with Milestone 28 details.  
+✅ Submitted the GitHub repository link for review.  
+
+🎉 **The Cancel Order feature is now live, improving user control over their orders!** 🚀
+
+
