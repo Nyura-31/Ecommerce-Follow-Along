@@ -850,3 +850,33 @@ In this milestone, we enhanced the **My Orders** page by allowing users to **can
 🎉 **The Cancel Order feature is now live, improving user control over their orders!** 🚀
 
 
+
+
+### **Milestone 29 Summary: PayPal Payment Integration (Setup Phase)**  
+
+#### **Objective:**  
+In this milestone, we prepared our application for **online payment integration** by setting up **PayPal API credentials** and adding a payment selection UI.  
+
+#### **Key Steps:**  
+1. **Created a PayPal Developer Account** and accessed the **sandbox environment**.  
+2. **Generated sandbox credentials**:  
+   - Copied and saved the **UserID** of the sandbox account.  
+   - Retrieved and stored the **Client ID** for PayPal API integration.  
+3. **Updated the Order Confirmation Page**:  
+   - Added two payment options: **Cash on Delivery (COD)** and **Online Payment**.  
+   - Used **radio buttons** to let users select their preferred payment method.  
+   - Implemented logic to **display PayPal payment buttons** when the "Online Payment" option is selected.  
+
+#### **Outcome & Learnings:**  
+- Learned how to **set up PayPal API sandbox accounts** for testing.  
+- Designed a **payment selection UI** to improve user experience.  
+- Prepared the application for **integrating PayPal payments** in the next milestone.  
+
+#### **Submission Steps:**  
+✅ Pushed the updated code to GitHub.  
+✅ Updated the **README file** with Milestone 29 details.  
+✅ Submitted the GitHub repository link for review.  
+
+🎉 **Our application is now ready for online payment integration!** 🚀
+
+
