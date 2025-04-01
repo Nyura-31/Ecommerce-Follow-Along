@@ -906,3 +906,37 @@ By the end of this milestone, we will:
 
 
 
+
+
+
+### **Summary of Milestone 31: Global State Management with Redux**  
+
+In this milestone, we will learn how to implement **global state management** in a React application using **Redux**. This will allow us to store and manage state centrally, making data accessible across multiple components.  
+
+#### **Learning Goals 🎯**  
+By the end of this milestone, we will:  
+✅ Understand **how Redux works** for global state management.  
+✅ Implement a **Redux store** to manage global states.  
+
+#### **Steps to Implement 📝**  
+1. **Install Redux**: Install the `react-redux` NPM package.  
+2. **Create Store Folder**: Inside your project, create a **new folder** called `store` with two files:  
+   - `store.js` → Configures the Redux store with a `userReducer` function to handle global user email state.  
+   - `userActions.js` → Defines a function called `setEmail`, which updates the global state with the user's email.  
+3. **Configure Redux Store**:  
+   - Set up `store.js` with a `userReducer` that manages email state.  
+   - Implement `setEmail` action in `userActions.js` to modify email state globally.  
+4. **Wrap App in Provider**:  
+   - In `index.js`, wrap the `<App />` component inside the `<Provider>` component from `react-redux` and pass the `store` as a prop.  
+
+📌 **Note:** In the next lesson, you will learn how to **update and access the email state across all files**.  
+
+#### **Submission Guidelines 📥**  
+- Push your **code** to your **GitHub repository**.  
+- Ensure your **repository is publicly accessible**.  
+- Update the **README file** to summarize your progress for **Milestone 31**.  
+- Share the **repository link** in the assignment submission section.  
+
+
+
+
