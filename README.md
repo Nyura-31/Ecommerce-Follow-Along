@@ -880,3 +880,29 @@ In this milestone, we prepared our application for **online payment integration*
 🎉 **Our application is now ready for online payment integration!** 🚀
 
 
+
+
+
+### **Summary of Milestone 30: PayPal Payment Gateway Integration**  
+
+In this milestone, we will learn how to **integrate an online payment gateway** into our application using the **PayPal API**. This milestone builds on **Milestone 29**, where we created a **PayPal account** and obtained a **UserID** inside the **sandbox environment**.  
+
+#### **Learning Goals 🎯**  
+By the end of this milestone, we will:  
+✅ Understand how to use the **PayPal API**.  
+✅ Learn how to **integrate online payments** into a React application.  
+
+#### **Steps to Implement 📝**  
+1. Ensure you have created a **PayPal account** and obtained the **UserID** inside the sandbox.  
+2. Implement **online payment** using the **PayPal API** and the **client key** created earlier.  
+3. Install the **react-paypal-js** NPM package, which provides the `PayPalScriptProvider` component to display payment methods like **credit/debit cards**.  
+4. Follow the **PayPal API documentation** (select **ReactJS** as the codebase) to integrate the payment gateway successfully.  
+
+#### **Submission Guidelines 📥**  
+- Push your **code** to your **GitHub repository**.  
+- Ensure your **repository is publicly accessible**.  
+- Update the **README file** to summarize your progress for **Milestone 30**.  
+- Share the **repository link** in the assignment submission section.  
+
+
+
