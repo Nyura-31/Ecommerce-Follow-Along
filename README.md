@@ -964,7 +964,60 @@ This milestone taught me the value of centralizing data with Redux, especially w
 🔹 **Reflection**  
 Before this, I used to pass data through props, which became messy with more components. Redux helped me manage shared state more effectively. I now feel more confident in building React apps that need consistent user state across multiple pages.
 
+
+
+
+
+
+### 🌟 Milestone 33 Summary – Creating and Storing JWT in Cookies
+
+In **Milestone 33**, I learned how to implement **JWT (JSON Web Tokens)** in my backend server to securely manage user sessions. This is an essential part of authentication and user verification in web applications. I also learned how to store the JWT token in **cookies**, which allows users to stay logged in and access protected routes.
+
 ---
+
+### ✅ What I Did:
+
+🔹 **Installed `jsonwebtoken`**  
+I started by installing the `jsonwebtoken` package using npm. This library allows us to **create**, **sign**, and **verify** tokens securely.
+
+🔹 **Created a JWT Token**  
+After a user successfully logs in, I used `jwt.sign()` to generate a token. I included the user’s **email** and **ID** as payload inside the token and added a secret key and expiry time (`maxAge`) to control how long the session lasts.
+
+```js
+const token = jwt.sign({ id: user._id, email: user.email }, process.env.JWT_SECRET, {
+  expiresIn: '3d' // Token expires in 3 days
+});
+```
+
+🔹 **Stored the Token in a Cookie**  
+Instead of sending the token back in the response body, I stored it in a cookie using the `res.cookie()` method. This is more secure and makes it easier to access protected routes later without manually passing the token in the headers.
+
+```js
+res.cookie('token', token, {
+  httpOnly: true,
+  maxAge: 3 * 24 * 60 * 60 * 1000, // 3 days in milliseconds
+  secure: true, // use this in production with HTTPS
+  sameSite: 'strict'
+});
+```
+
+---
+
+### 🎯 Learning Outcomes:
+
+- I now understand how **JWT** tokens work and how they help in securely authenticating users.
+- I learned how to **sign tokens** with sensitive data and configure token **expiry**.
+- I practiced setting up and sending a secure **cookie** to the client that stores the token safely.
+- This milestone prepared me for **auth-protected routes**, where I will validate the token to give access.
+
+---
+
+### 🔁 Reflection:
+
+Before this milestone, I had only heard of JWT in theory. Now, I’ve implemented it in practice and can confidently say I understand its role in secure user authentication. It felt amazing to store the token in a cookie and actually see it appear in the browser’s developer tools!
+
+This step is also crucial because it sets the foundation for **protecting private routes** and verifying users on each request without asking them to log in repeatedly.
+
 
 
 
