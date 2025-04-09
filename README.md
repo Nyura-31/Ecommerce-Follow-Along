@@ -940,3 +940,33 @@ By the end of this milestone, we will:
 
 
 
+
+
+### 🌟 Milestone 32 Summary – Global State Management Using Redux
+
+In Milestone 32, I explored how to use **Redux** to manage global state in a React application. This milestone focused on maintaining the **user’s email (mail)** in the global state so that it can be accessed across all pages of the application, rather than passing it manually through props.
+
+🔹 **Login Page Implementation**  
+In the login page, I used the `useDispatch` hook from Redux to trigger an action that saves the user's email to the store. When the user logs in successfully, their email is dispatched and stored globally using Redux. This is done through an action that updates the reducer with the new email state.
+
+🔹 **Accessing State Across Pages**  
+In other pages (e.g., dashboard, profile), I used the `useSelector` hook to access the email from the global Redux state. This approach simplifies data flow by eliminating prop drilling and ensures consistent access to the logged-in user’s information.
+
+🔹 **Why This Was Important**  
+This milestone taught me the value of centralizing data with Redux, especially when multiple components depend on the same information. It made my application more scalable, maintainable, and cleaner in structure. I also understood how state flows through dispatching actions and reading values via selectors.
+
+🔹 **Redux Concepts Practiced**  
+- Setting up the Redux store  
+- Creating actions and reducers  
+- Using `useDispatch` to update state  
+- Using `useSelector` to retrieve state in any component
+
+🔹 **Reflection**  
+Before this, I used to pass data through props, which became messy with more components. Redux helped me manage shared state more effectively. I now feel more confident in building React apps that need consistent user state across multiple pages.
+
+---
+
+
+
+
+
